@@ -1,0 +1,1 @@
+class AppError extends Error{constructor(m,s=400){super(m);this.status=s;}}class BadRequestError extends AppError{constructor(m){super(m,400);}}class NotFoundError extends AppError{constructor(m){super(m,404);}}module.exports={AppError,BadRequestError,NotFoundError};

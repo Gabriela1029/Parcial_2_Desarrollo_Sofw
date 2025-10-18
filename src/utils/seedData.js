@@ -1,0 +1,1 @@
+const repo=require('../repository/taskRepository');async function seed(){const all=await repo.findAll({});if(all.length===0){await repo.create({title:'Ejemplo',description:'Creada automáticamente',dueDate:new Date(Date.now()+86400000).toISOString(),status:'pending',createdAt:new Date(),updatedAt:new Date()});console.log('Seeded sample task');}}module.exports={seed};

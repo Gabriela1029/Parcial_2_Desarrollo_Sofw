@@ -1,0 +1,1 @@
+class Task{constructor({id,title,description,dueDate,status,createdAt,updatedAt}){this.id=id;this.title=title;this.description=description;this.dueDate=dueDate?new Date(dueDate):null;this.status=status;this.createdAt=createdAt?new Date(createdAt):new Date();this.updatedAt=updatedAt?new Date(updatedAt):new Date();}}module.exports=Task;

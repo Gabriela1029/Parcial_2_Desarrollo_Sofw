@@ -1,0 +1,20 @@
+{
+  "name": "task-app",
+  "version": "1.0.0",
+  "description": "Parcial 2 - Desarrollo de Software II - Node/Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Tu nombre",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

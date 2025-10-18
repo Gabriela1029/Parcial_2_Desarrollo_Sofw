@@ -1,0 +1,1 @@
+const Joi=require('joi');module.exports=Joi.object({title:Joi.string().min(1).max(200).required(),description:Joi.string().allow('').max(1000),dueDate:Joi.date().iso().optional(),status:Joi.string().valid('pending','in_progress','done','cancelled').optional()});

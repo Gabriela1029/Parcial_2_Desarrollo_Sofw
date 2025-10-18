@@ -1,0 +1,1 @@
+const Joi=require('joi');module.exports=Joi.object({status:Joi.string().valid('pending','in_progress','done','cancelled').required()});
